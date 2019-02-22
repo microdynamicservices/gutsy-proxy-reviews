@@ -27,6 +27,27 @@ body {
   width: 100%;
 }
 
+#logo {
+  position: fixed;
+  top: 80px;
+  right: 300px;
+}
+
+* {
+  font-family: BlinkMacSystemFont, Roboto, Droid Sans, Segoe UI, Helvetica,
+    Arial, sans-serif;
+}
+
+#app > * {
+  padding: 10px 0px 6px 10px;
+}
+
+#app *,
+#app *:before,
+#app *:after {
+  box-sizing: initial;
+}
+
 #reviews-relation {
   display: flex;
   flex: 2;
