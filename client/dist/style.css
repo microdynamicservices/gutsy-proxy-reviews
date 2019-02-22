@@ -38,9 +38,9 @@ body {
 }
 
 #logo {
-  position: fixed;
-  top: 80px;
-  right: 300px;
+  position: absolute;
+  top: 88px;
+  right: 111px;
 }
 
 #app > * {
