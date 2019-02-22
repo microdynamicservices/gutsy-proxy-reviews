@@ -1,0 +1,89 @@
+#main {
+  max-width: 1500px;
+  margin: auto;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  width: 95%;
+  height: 100%;
+  border-radius: 0px 0px 12px 12px;
+  border: 2px #242121 solid;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  height: calc(100% - 10px);
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#reviews-relation {
+  display: flex;
+  flex: 2;
+  height: 60%;
+  /* position: relative; */
+  border-top: 2px #242121 solid;
+}
+
+#app,
+#nav,
+#reviews-relation {
+  width: 100%;
+}
+
+#reviews,
+#reviews-container,
+#relation,
+#relation-container {
+  height: 100%;
+}
+
+#reviews-container,
+#relation-container {
+  padding: 0px 5px 10px 5px;
+}
+#relation-container {
+  min-width: 655px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+#relation-title,
+#reviews-title {
+  text-align: center;
+  vertical-align: center;
+  font-size: 20px;
+  text-decoration: underline;
+  height: 35px;
+}
+
+#reviews-body {
+  height: calc(100% - 35px);
+}
+#relation-body {
+  height: 100%;
+}
+
+#relation-body {
+  overflow: auto;
+}
+
+#relation {
+  padding: 5px;
+}
+
+#reviews-container {
+  flex: 3;
+  border-right: 2px #242121 solid;
+}
